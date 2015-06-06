@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="Refresh" content="<{$time}>; url=<{$url}>" />
+<title><{$xoops_sitename}></title>
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+</head>
+<body>
+<table cellspacing="0" id="Main" align="center">
+    <tr>
+      <td >
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0" id="Header">
+        <tr>
+          <td class="Logo"><img src="<{$xoops_imageurl}>images/logo.gif" alt="" width="191" height="31" /></td>
+          <!--<td class="Search"><form style="margin: 0px;" action="<{$xoops_url}>/search.php" method="get">
+            <input class="SearchBox" type="text" name="query" size="14" />
+            <input type="hidden" name="action" value="results" />
+            <input   class="SearchButton" name="submit" type="image" value="Search"  src="<{$xoops_imageurl}>images/search.gif"  />
+          </form></td> -->
+        </tr>
+      </table>
+          </td>
+    </tr>
+   <!-- <tr>
+      <td class="HeaderRed" >&nbsp;</td>
+    </tr> -->
+    <tr>
+      <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0" id="Menu">
+      <tr>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>">Home</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>/modules/wfsection/">About Us</a> </td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>/modules/news/">News</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>/modules/newbb/">Forum</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>/modules/wffaq/">FAQ</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>/modules/liaise/">Contact Us</a> </td>
+                </tr>
+    </table>
+        </td>
+    </tr>
+    <tr>
+      <td id="centercolumn"  style="padding-top:40px; padding-bottom:60px; ">
+        <!-- Display center blocks if any -->
+<div style="text-align:center; font-weight : bold;">
+  <h4><{$message}></h4>
+  <p><{$lang_ifnotreload}></p>
+</div>
+<{if $xoops_logdump != ''}><div><{$xoops_logdump}></div><{/if}>
+      <{if $xoops_showrblock == 1}>      <{/if}>
+    </tr>
+    <tr>
+      <td class="footer">Copyright &copy; 2009. Xoops Theme by <a href="http://www.sinnedesign.com">Xoops Theme</a></td>
+    </tr>
+</table>
+</body>
+</html>
